@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 export class PlayerComponent implements OnInit {
 
   @Input() name = '';
+  @Input() playerActive: boolean = false;
 
   constructor(){}
   ngOnInit(): void {
