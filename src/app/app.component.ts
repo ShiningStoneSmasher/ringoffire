@@ -1,6 +1,5 @@
 import { Component, NgModule, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Firestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 import { CommonModule } from "@angular/common";
 
@@ -19,13 +18,9 @@ import { CommonModule } from "@angular/common";
   
 
 export class AppComponent {
-  firestore: Firestore = inject(Firestore);
-//  items$: Observable<any[]>;
   title = 'ringoffire';
 
 
   constructor() {
-  //  const aCollection = collection(this.firestore, 'items')
-  //  this.items$ = collectionData(aCollection);
   }
 }
