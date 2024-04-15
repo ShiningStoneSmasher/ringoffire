@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ring-of-fire-db32c": {
+      "hosting": {
+        "ringoffire": [
+          "ring-of-fire-db32c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ring-of-fire-db32c"
+  }
+}
